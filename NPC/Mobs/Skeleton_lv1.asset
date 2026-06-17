@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0da196f8ebb45a4da9147cd72b178bb, type: 3}
+  m_Name: Skeleton_lv1
+  m_EditorClassIdentifier: Assembly-CSharp::MobData
+  mobName: Szkielet
+  category: 0
+  maxHP: 1
+  attackBonus: 0
+  level: 1
+  minCoins: 1
+  maxCoins: 5
+  deckType: 0
+  fixedDeck:
+  - {fileID: 11400000, guid: 65110764acf558c4cb83ac4f95bfd1a8, type: 2}
+  - {fileID: 11400000, guid: cfd6d3a573d662d4aae849903bee9151, type: 2}
+  - {fileID: 11400000, guid: 5c023093002bb90429e53f3f6e40b53f, type: 2}
+  - {fileID: 11400000, guid: 1151a6201348b774f9bb282f31c9dbfa, type: 2}
+  - {fileID: 11400000, guid: b74db49f37c335f47a1c5a97eea893e6, type: 2}
+  - {fileID: 11400000, guid: 0e201798a327363489c73b94a4621f77, type: 2}
+  - {fileID: 11400000, guid: ba1f6f3da17318643bdda5075cc241d8, type: 2}
+  - {fileID: 11400000, guid: 3e8f1e624794e1e49b94c9eb80783841, type: 2}
+  - {fileID: 11400000, guid: 6d0df8fcf0130964fbd94dee540eb7aa, type: 2}
+  - {fileID: 11400000, guid: 5f35ecd328cccdf4ab3fc32d356a20a6, type: 2}
+  - {fileID: 11400000, guid: a21f5c3c3ac67d94bbbab0cb90f53908, type: 2}
+  - {fileID: 11400000, guid: 23ae8813aa1f4d44da21ece2ce609702, type: 2}
+  - {fileID: 11400000, guid: 70d8b5efde496f24a8295858ade4bc10, type: 2}
+  - {fileID: 11400000, guid: 05e4e15292f23404588d91cb2fcbea4c, type: 2}
+  - {fileID: 11400000, guid: 0a52d2723b4c08f438c966afa3ab155c, type: 2}
+  - {fileID: 11400000, guid: c16c475fa4563da4fb22b71e32a78458, type: 2}
+  - {fileID: 11400000, guid: 70f87a1579884e743bf4a38a44bdbf20, type: 2}
+  - {fileID: 11400000, guid: af879e2a3ffd4b543afaab41744d6fb8, type: 2}
+  - {fileID: 11400000, guid: 495dbcb8375899a4eaa2bcb19d47ca00, type: 2}
+  - {fileID: 11400000, guid: ef2aebb4a8a78e34d8e493d989e80312, type: 2}
+  - {fileID: 11400000, guid: 4baa0ce3e2b8f7a428a0a3d23223aaa5, type: 2}
+  - {fileID: 11400000, guid: ea38047b9dfdd2042bba05734d838cd7, type: 2}
+  - {fileID: 11400000, guid: ef8dfd4e597e9b14ea5a13408c09ccc7, type: 2}
+  - {fileID: 11400000, guid: 21142dc9866045342973be5decf13e13, type: 2}
+  - {fileID: 11400000, guid: 4394ffcb699748c4ba280af1fbe18089, type: 2}
+  - {fileID: 11400000, guid: 14ec72703bfc441459b3fe76bc787c94, type: 2}
+  - {fileID: 11400000, guid: f73f3d63ab444e040bce41d6ac5ade7d, type: 2}
+  - {fileID: 11400000, guid: 8e3318e79340eef49a6549e029fc8225, type: 2}
+  - {fileID: 11400000, guid: 7cfff42e316f9ff45b303e47e09c0c49, type: 2}
+  - {fileID: 11400000, guid: f5231d84f3ea47b4bb35fa63c85a63e7, type: 2}
+  - {fileID: 11400000, guid: 6b684f5c50dccfe46ae89e230bcf87b6, type: 2}
+  - {fileID: 11400000, guid: ba718c4511f6ba143b1786bc82411d0e, type: 2}
+  - {fileID: 11400000, guid: b850a214d5d66f54f87ecad372880c22, type: 2}
+  - {fileID: 11400000, guid: f8715baa9ca3b5c4c803b6c3ab84ddae, type: 2}
+  - {fileID: 11400000, guid: 8ae0771947b0fc242baa1f733be7ddab, type: 2}
+  - {fileID: 11400000, guid: 1adcdfb228541b645a02896556c9a359, type: 2}
+  - {fileID: 11400000, guid: 7085ce010ce313542bad740fce76872a, type: 2}
+  - {fileID: 11400000, guid: 9e0b5c8f0e7782f4baf5872704988c9c, type: 2}
+  - {fileID: 11400000, guid: a4f5059782ee1a54b97bf877d2095a6e, type: 2}
+  - {fileID: 11400000, guid: 428da3f0fc8a3274e932be3c20155045, type: 2}
+  - {fileID: 11400000, guid: c52334c3231d21b4b9aa6031da768efb, type: 2}
+  - {fileID: 11400000, guid: b72dc9885015d5a4b94887c67a2c4677, type: 2}
+  - {fileID: 11400000, guid: 275312732826291469f313a44f159913, type: 2}
+  - {fileID: 11400000, guid: d9d003c5d07545e4d9e766285b6f5a0e, type: 2}
+  - {fileID: 11400000, guid: ffc411919c2a6954caac3b3b66ffc7fc, type: 2}
+  - {fileID: 11400000, guid: df2097fb530393f4ea4944874d7cd08e, type: 2}
+  - {fileID: 11400000, guid: d87d47b53ad152b478d7a78326398c30, type: 2}
+  - {fileID: 11400000, guid: 1455609962bfd074c8fa5be7a9c91c5b, type: 2}
+  - {fileID: 11400000, guid: d12624d7bf462f34288efb317ad05974, type: 2}
+  - {fileID: 11400000, guid: 2a52110ae90548941864aab93ac59beb, type: 2}
+  - {fileID: 11400000, guid: 5275f15517df2eb42a3efedf57d85428, type: 2}
+  - {fileID: 11400000, guid: bb696a4607ac8b54789ac322a55f0057, type: 2}
+  randomCardPool: []
+  randomCardCount: 0
+  mobGraphic: {fileID: 5841599439249754136, guid: 1f894aef690c4f74783aa8a99ccf46dd, type: 3}
+  attackSound: {fileID: 8300000, guid: 3fe08da5189814c4789994de2ed1ddd1, type: 3}
+  damageSound: {fileID: 8300000, guid: a9b5e9b3b7e28ae42b3ce7e174b955b5, type: 3}
+  animatorController: {fileID: 22100000, guid: 9c1e7bdcc0b02294b8de51d0bad1b1e9, type: 2}

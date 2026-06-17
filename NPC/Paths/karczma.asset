@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12e0a2a00a22cb44ab95291361fe1af, type: 3}
+  m_Name: karczma
+  m_EditorClassIdentifier: Assembly-CSharp::PathData
+  pathName: Tavern
+  pathIcon: {fileID: -9019586371743296517, guid: e67ea861c01a6c149b9277211217da68, type: 3}
+  pathDescription: 
+  typeOfPath: 3
+  waveToLoad: {fileID: 0}

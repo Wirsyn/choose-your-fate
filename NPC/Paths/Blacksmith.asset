@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12e0a2a00a22cb44ab95291361fe1af, type: 3}
+  m_Name: Blacksmith
+  m_EditorClassIdentifier: Assembly-CSharp::PathData
+  pathName: Blacksmith
+  pathIcon: {fileID: 3042274203915214314, guid: 25e4c295a81313c45a0efe13ceb06b6e, type: 3}
+  pathDescription: Upgrade cards and gear
+  typeOfPath: 1
+  waveToLoad: {fileID: 0}
