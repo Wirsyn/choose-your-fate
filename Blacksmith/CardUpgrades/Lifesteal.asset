@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb334e7211f4304d92ef358d3f4b863, type: 3}
+  m_Name: Lifesteal
+  m_EditorClassIdentifier: Assembly-CSharp::CardUpgradeData
+  upgradeName: Lifesteal
+  description: 
+  icon: {fileID: -3675376081800921551, guid: 2efaa9002fcb9ca49a6317e966623c50, type: 3}
+  cardTintColor: {r: 0.7735849, g: 0.64069283, b: 0.36854753, a: 1}
+  upgradeType: 8
+  phase: 1
+  effectValue: 1
+  effectPrefab: {fileID: 6860883311859809727, guid: 58fddb49cbb40fb41952d232af28204b, type: 3}
+  effectDuration: 1.5

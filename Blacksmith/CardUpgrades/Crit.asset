@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb334e7211f4304d92ef358d3f4b863, type: 3}
+  m_Name: Crit
+  m_EditorClassIdentifier: Assembly-CSharp::CardUpgradeData
+  upgradeName: Crit
+  description: 
+  icon: {fileID: -5941553319205504279, guid: 842ffe6599bcd464bb8bbfdd351d4d2b, type: 3}
+  cardTintColor: {r: 1, g: 0.49695003, b: 0, a: 1}
+  upgradeType: 3
+  phase: 1
+  effectValue: 1
+  effectPrefab: {fileID: 1509176428665139107, guid: dc3f66ebb56abd342b3ecdd63d4583df, type: 3}
+  effectDuration: 1.5
+  effectSound: {fileID: 8300000, guid: 859f1d3c96ce8ae44a83407501bba2e7, type: 3}
