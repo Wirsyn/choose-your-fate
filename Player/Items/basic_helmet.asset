@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1945a484423e874c9949427836f728a, type: 3}
+  m_Name: basic_helmet
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Basic Helmet
+  description: 
+  itemIcon: {fileID: -3824650995339025141, guid: 9a2ab4cace1548341ac7dc9d864d6abb, type: 3}
+  slotType: 2
+  slotsTaken: 1
+  isStackable: 0
+  maxStack: 1
+  currentStack: 1
+  maxDurability: 100
+  currentDurability: 100
+  buyPrice: 50
+  sellPrice: 25
+  baseUpgradeCost: 100
+  upgradeLevel: 0
+  bonusAttackTokens: 1
+  bonusDefenseTokens: 0
+  bonusMaxHP: 0
+  bonusMaxBet: 0
+  bonusBaseDamage: 0
+  bonusGoldMultiplier: 0
+  restoreHP: 0
+  restoreArmor: 0

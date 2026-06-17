@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &776859722984385531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6898628898352409271}
+  - component: {fileID: 1033234810841099924}
+  - component: {fileID: 3789404053623267679}
+  m_Layer: 0
+  m_Name: EguipmentManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6898628898352409271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776859722984385531}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 549.1592, y: 597.0183, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1033234810841099924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776859722984385531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a22ad4f89b2034aa7b5cc0c30138c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryUI
+  eqManager: {fileID: 3789404053623267679}
+  inventoryPanel: {fileID: 0}
+  tooltipManager: {fileID: 0}
+  weaponSlot: {fileID: 0}
+  shieldSlot: {fileID: 0}
+  helmetSlot: {fileID: 0}
+  armorSlot: {fileID: 0}
+  trinketSlot: {fileID: 0}
+  ringSlot: {fileID: 0}
+  potionSlot: {fileID: 0}
+  bootsSlot: {fileID: 0}
+  glovesSlot: {fileID: 0}
+  weaponIcon: {fileID: 0}
+  shieldIcon: {fileID: 0}
+  helmetIcon: {fileID: 0}
+  armorIcon: {fileID: 0}
+  trinketIcon: {fileID: 0}
+  ringIcon: {fileID: 0}
+  potionIcon: {fileID: 0}
+  bootsIcon: {fileID: 0}
+  glovesIcon: {fileID: 0}
+  emptySlotSprite: {fileID: 2036037179587684401, guid: cf8b274ed15bce9439f32b79dc1f664d, type: 3}
+  backpackContainer: {fileID: 0}
+  backpackItemPrefab: {fileID: 6372438969905142659, guid: 19fa8ba421690c5409b093f07352c0a5, type: 3}
+  capacityText: {fileID: 0}
+  smallBackpackContainer: {fileID: 0}
+  smallCapacityText: {fileID: 0}
+  coinsText: {fileID: 0}
+--- !u!114 &3789404053623267679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776859722984385531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f9d9a0842a7f649a07c337020a8da4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentManager
+  allPossibleItems:
+  - {fileID: 11400000, guid: d8c282ebc23e63449b9f359a238ade72, type: 2}
+  - {fileID: 11400000, guid: 608cc58527c7ee749aa995e970611511, type: 2}
+  - {fileID: 11400000, guid: 22ac8b5de1b00bf41bce8e8437ff5126, type: 2}
+  - {fileID: 11400000, guid: 677fc9d801493894aa7239e0506aa0dd, type: 2}
+  - {fileID: 11400000, guid: 00818f1d2d4383f40beb94a12aaf8a41, type: 2}
+  - {fileID: 11400000, guid: 3f61afa1d3d534c43b768f933a573754, type: 2}
+  - {fileID: 11400000, guid: 9b411c084e0430847920eaa86008bfeb, type: 2}
+  - {fileID: 11400000, guid: 97b7726766be63a41b068f37486a3b44, type: 2}
+  - {fileID: 11400000, guid: 24ebcf44bfd746f49a261bdd5b213467, type: 2}
+  - {fileID: 11400000, guid: 9b4a9f953839cd24ba649188ceb1e8aa, type: 2}
+  - {fileID: 11400000, guid: 83c3773af8cfa304e9ea0b3fc9c49ebc, type: 2}
+  - {fileID: 11400000, guid: 83638b9934755b241bc7311e0939be26, type: 2}
+  - {fileID: 11400000, guid: 99a88e8328c65f148b71f2cc05037be6, type: 2}
+  - {fileID: 11400000, guid: 2421c7911802e6945b500837c80012a2, type: 2}
+  - {fileID: 11400000, guid: feaa020f1c78cf047b7afbf4d10ad98c, type: 2}
+  - {fileID: 11400000, guid: 9a47fab0e9ea8b34f9dd8b52c6df56b3, type: 2}
+  - {fileID: 11400000, guid: b415851a5e6651740ae105ee40ad7a53, type: 2}
+  - {fileID: 11400000, guid: cf8b7592f0b48cf4cbae706000748844, type: 2}
+  - {fileID: 11400000, guid: e7d118c5edc86424c9738b401e81ee89, type: 2}
+  - {fileID: 11400000, guid: 98fa55b60931702489cdad26a0e6f67a, type: 2}
+  - {fileID: 11400000, guid: 92b5c2f0c1df19d4da0edd9053066e67, type: 2}
+  - {fileID: 11400000, guid: c6f802f9fcc88f640a131e111611ab35, type: 2}
+  - {fileID: 11400000, guid: 3e0335e164c3cd04f8743f123369fb68, type: 2}
+  equippedWeapon: {fileID: 0}
+  equippedShield: {fileID: 0}
+  equippedHelmet: {fileID: 0}
+  equippedArmor: {fileID: 0}
+  equippedTrinket: {fileID: 0}
+  equippedRing: {fileID: 0}
+  equippedPotion: {fileID: 0}
+  equippedBoots: {fileID: 0}
+  equippedGloves: {fileID: 0}
+  maxBackpackSlots: 9
+  backpack: []
+  maxSmallBackpackSlots: 3
+  smallBackpack: []

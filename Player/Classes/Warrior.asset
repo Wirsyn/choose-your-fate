@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd7cbb2b75ec4c46a0eb647c59c1715, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerClassData
+  className: Warrior
+  classType: 1
+  classIcon: {fileID: 3725374078612964561, guid: bb0af557dd9cfd5428899a8cc8674991, type: 3}
+  baseMaxHP: 5
+  baseAttackTokens: 0
+  baseDefenseTokens: 0
+  baseMaxBet: 2
+  startingWeapon: {fileID: 11400000, guid: 3e0335e164c3cd04f8743f123369fb68, type: 2}
+  startingShield: {fileID: 0}
+  startingHelmet: {fileID: 11400000, guid: 97b7726766be63a41b068f37486a3b44, type: 2}
+  startingArmor: {fileID: 11400000, guid: 00818f1d2d4383f40beb94a12aaf8a41, type: 2}
+  startingTrinket: {fileID: 0}
+  startingRing: {fileID: 0}
+  startingPotion: {fileID: 11400000, guid: cf8b7592f0b48cf4cbae706000748844, type: 2}
+  startingBoots: {fileID: 11400000, guid: 3f61afa1d3d534c43b768f933a573754, type: 2}
+  startingGloves: {fileID: 0}
+  startingBackpack: []
+  idleSprite: {fileID: 3725374078612964561, guid: 618d53559aab98f4c9f73de7a9bd6089, type: 3}
+  blinkSprite: {fileID: 1269308265575520116, guid: 0bd5448f502f815498b6862b3fd88a06, type: 3}
+  hurtSprite: {fileID: 4253010614942984227, guid: 4051fc86ea5818e43832bfd1c0bbf1ab, type: 3}
+  woundedIdleSprite: {fileID: -9097932620287725772, guid: ef66c7ad9f59f1048bd7d39d4022550c, type: 3}
+  woundedBlinkSprite: {fileID: -7624496968905880005, guid: dea302f75f7472f498033b013c8e0662, type: 3}
+  woundedHurtSprite: {fileID: 7565798600957266566, guid: e7b5f22d787854e4e867ba19ee09691e, type: 3}
+  deadSprite: {fileID: -7328316080059625146, guid: 8e2f2727e3d15934d98583a296aec71c, type: 3}

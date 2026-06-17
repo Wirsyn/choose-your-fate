@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1945a484423e874c9949427836f728a, type: 3}
+  m_Name: GoldenSword
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Golden Sword
+  description: 
+  itemIcon: {fileID: -8768383761000539330, guid: 7553b8261b11a8c429ad36d089d4a52a, type: 3}
+  slotType: 0
+  slotsTaken: 1
+  isStackable: 0
+  maxStack: 1
+  currentStack: 1
+  maxDurability: 100
+  currentDurability: 100
+  buyPrice: 400
+  sellPrice: 200
+  baseUpgradeCost: 500
+  upgradeLevel: 0
+  bonusAttackTokens: 0
+  bonusDefenseTokens: 0
+  bonusMaxHP: 0
+  bonusMaxBet: 0
+  bonusArmorStart: 0
+  bonusGoldMultiplier: 1
+  bonusBaseDamage: 1
+  restoreHP: 0
+  restoreArmor: 0

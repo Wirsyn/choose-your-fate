@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1945a484423e874c9949427836f728a, type: 3}
+  m_Name: Coin
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Coin
+  description: 'I can sell it '
+  itemIcon: {fileID: 7675826601332790545, guid: 0e62327554395de4c935dff775c5b710, type: 3}
+  slotType: 8
+  slotsTaken: 1
+  isStackable: 1
+  maxStack: 99
+  currentStack: 1
+  maxDurability: 100
+  currentDurability: 100
+  buyPrice: 0
+  sellPrice: 250
+  baseUpgradeCost: 999999999
+  upgradeLevel: 0
+  bonusAttackTokens: 0
+  bonusDefenseTokens: 0
+  bonusMaxHP: 0
+  bonusMaxBet: 0
+  bonusBaseDamage: 0
+  bonusGoldMultiplier: 0
+  restoreHP: 0
+  restoreArmor: 0
